@@ -27,7 +27,7 @@ spec:
           mountPath: /shared
       containers:
       - name: nginx
-        image: public.ecr.aws/nginx/nginx
+        image: public.ecr.aws/nginx/nginx-alpine
         ports:
         - containerPort: 80
           name: http
