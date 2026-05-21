@@ -15,4 +15,4 @@ resources:
 images:
   - name: guestbook
     newName: ghcr.io/ptifago98/guestbook-gitops
-    newTag: main-a11d85a
+    newTag: main-bc5681b
