@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Config
+clusters:
+- name: "local"
+  cluster:
+    server: "https://rancher-nathan.duckdns.org/k8s/clusters/local"
+
+users:
+- name: "local"
+  user:
+    token: "kubeconfig-user-lm942l26wt:7259rfcj27kmfglqc5bmj4f5frx5s5b4sd2vb4x6ptcmlt885wlkrf"
+
+
+contexts:
+- name: "local"
+  context:
+    user: "local"
+    cluster: "local"
+
+current-context: "local"
